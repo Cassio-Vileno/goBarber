@@ -15,8 +15,8 @@ export const Conatainer = styled.View<ContainerProps>`
     ${({isFocused}) => 
       isFocused &&
         css`
-          border-bottom-width: 1.5px;
-          border-bottom-color: #ff9000;
+          border-width: 1.5px;
+          border-color: #ff9000;
         `
         }
 
